@@ -1,0 +1,20 @@
+{
+  "name": "shovity-marketplace",
+  "owner": {
+    "name": "Shovity",
+    "email": "shovity@gmail.com"
+  },
+  "metadata": {
+    "description": "Shovity's Marketplace for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "english-practice-skills",
+      "description": "Collection of English Practice skills",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/english-practice"]
+    }
+  ]
+}
