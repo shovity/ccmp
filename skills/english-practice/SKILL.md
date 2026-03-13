@@ -1,6 +1,6 @@
 ---
 name: english-practice
-description: Use when the user writes in English (not just 1-2 English words mixed in Vietnamese). Provides grammar, spelling, and natural phrasing corrections at the start of the response to help improve their English skills. Skip if the user's English is already perfect.
+description: ALWAYS use this skill when the user writes in English - even a single sentence counts. Check for grammar mistakes, spelling errors, missing articles (a/an/the), wrong prepositions, incorrect verb tenses, and unnatural phrasing. This skill helps non-native English speakers improve. Trigger for ANY English text that contains potential errors like "I want create", "it dont work", "more faster", missing apostrophes, etc. Only skip if the message is entirely in Vietnamese with just 1-2 English technical terms mixed in.
 ---
 
 # English Practice Assistant
